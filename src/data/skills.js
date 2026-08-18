@@ -1,0 +1,76 @@
+export const skillCategories = [
+  {
+    id: "programming",
+    label: "Programming",
+    note: "Core languages",
+    skills: [
+      { name: "Python", desc: "Primary language for data work and ML." },
+      { name: "SQL", desc: "Querying and shaping relational data." },
+      { name: "JavaScript", desc: "Building interactive web experiences." },
+    ],
+  },
+  {
+    id: "data-science",
+    label: "Data Science",
+    note: "Analysis toolkit",
+    skills: [
+      { name: "Pandas", desc: "Data wrangling and transformation." },
+      { name: "NumPy", desc: "Numerical computing at scale." },
+      { name: "Scikit-learn", desc: "Classical ML modeling." },
+      { name: "Matplotlib", desc: "Static, publication-ready charts." },
+      { name: "Seaborn", desc: "Statistical visualization." },
+    ],
+  },
+  {
+    id: "machine-learning",
+    label: "Machine Learning",
+    note: "Modeling & evaluation",
+    skills: [
+      { name: "Regression", desc: "Predicting continuous outcomes." },
+      { name: "Classification", desc: "Predicting categorical outcomes." },
+      { name: "Random Forest", desc: "Ensemble tree-based modeling." },
+      { name: "XGBoost", desc: "Gradient-boosted models for accuracy." },
+      { name: "Feature Engineering", desc: "Shaping raw data into signal." },
+      { name: "Model Evaluation", desc: "Metrics, validation, tuning." },
+    ],
+  },
+  {
+    id: "genai",
+    label: "AI / GenAI",
+    note: "Where I'm going deep",
+    skills: [
+      { name: "RAG", desc: "Grounding LLMs in retrieved context." },
+      { name: "LangChain", desc: "Orchestrating LLM pipelines." },
+      { name: "LLMs", desc: "Prompting and integrating large models." },
+      { name: "Embeddings", desc: "Vector representations of meaning." },
+      { name: "Vector Databases", desc: "Similarity search at scale." },
+      { name: "Prompt Engineering", desc: "Reliable, structured LLM output." },
+      { name: "Generative AI", desc: "Applied GenAI product building." },
+    ],
+  },
+  {
+    id: "data-bi",
+    label: "Data / BI",
+    note: "Reporting & insight",
+    skills: [
+      { name: "Power BI", desc: "Interactive business dashboards." },
+      { name: "Excel", desc: "Fast ad-hoc analysis and modeling." },
+      { name: "Data Cleaning", desc: "Turning messy data into usable data." },
+      { name: "EDA", desc: "Exploratory analysis to find signal." },
+      { name: "Data Visualization", desc: "Communicating findings clearly." },
+    ],
+  },
+  {
+    id: "development",
+    label: "Development",
+    note: "Shipping product",
+    skills: [
+      { name: "React.js", desc: "Building interactive interfaces." },
+      { name: "Vite", desc: "Fast frontend tooling." },
+      { name: "Tailwind CSS", desc: "Utility-first styling." },
+      { name: "Git", desc: "Version control workflows." },
+      { name: "GitHub", desc: "Collaboration and shipping code." },
+      { name: "Streamlit", desc: "Rapid data app prototyping." },
+    ],
+  },
+];
