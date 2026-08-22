@@ -2,7 +2,7 @@
 
 A premium, interactive personal portfolio built with Vite, React, Tailwind CSS v4,
 and Framer Motion.
-
+Live Demo: chirayu-portfolio-seven.vercel.app
 ## Getting started
 
 ```bash
