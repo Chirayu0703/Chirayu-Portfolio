@@ -107,7 +107,7 @@ My current areas of interest include:
 
 ## 📂 Featured Projects
 
-### 🍎 Apple Product Intelligence Center
+###  Apple Product Intelligence Center
 
 An interactive analytics platform designed to analyze Apple product pricing, discounts, trends, and market insights.
 
@@ -190,26 +190,30 @@ Worked on data analytics projects involving data cleaning, data analysis, visual
 
 ---
 
-## 📁 Project Structure
+## 🚀 Deployment
 
-```text
-portfolio/
-│
-├── public/
-│   ├── assets/
-│   └── ...
-│
-├── src/
-│   ├── components/
-│   ├── sections/
-│   ├── assets/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── ...
-│
-├── package.json
-├── package-lock.json
-├── vite.config.js
-├── tailwind.config.js
-├── index.html
-└── README.md
+The portfolio is deployed and hosted using **Vercel**.
+
+🔗 **Live Portfolio:** [View My Portfolio](hhtps://chirayu-porfilio-seven.vercel.app)
+
+---
+
+## 📬 Contact
+
+If you'd like to connect, collaborate, or discuss an opportunity:
+
+📧 **Email:** [chirayulokhande02@gmail.com](mailto:chirayulokhande02@gmail.com)
+
+💼 **LinkedIn:** [Chirayu Lokhande](https://linkedin.com/in/chirayulokhande07)
+
+🐙 **GitHub:** [Chirayu0703](https://github.com/Chirayu0703)
+
+---
+
+## ⭐ Support
+
+If you like this portfolio, consider giving the repository a ⭐ on GitHub!
+
+---
+
+### Made with ❤️ by Chirayu Lokhande
