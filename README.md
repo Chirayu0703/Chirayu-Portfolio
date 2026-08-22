@@ -1,46 +1,215 @@
-# Chirayu Lokhande — AI/ML & Data Science Portfolio
+# 🚀 Chirayu Lokhande — Personal Portfolio
 
-A premium, interactive personal portfolio built with Vite, React, Tailwind CSS v4,
-and Framer Motion.
-Live Demo: https://chirayu-portfolio-seven.vercel.app
-## Getting started
+<p align="center">
+  <img src="https://img.shields.io/badge/Portfolio-React.js-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/Deployment-Vercel-black?style=for-the-badge&logo=vercel" />
+</p>
 
-```bash
-npm install
-npm run dev       # start the dev server
-npm run build     # production build → dist/
-npm run preview   # preview the production build locally
-```
+<p align="center">
+  A modern, responsive, and interactive personal portfolio built with React.js and Tailwind CSS.
+</p>
 
-Requires Node 18+.
+<p align="center">
+  <a href="YOUR_VERCEL_URL">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20Portfolio-success?style=for-the-badge" />
+  </a>
+</p>
 
-## Replacing placeholder content
+---
 
-| What | Where | Notes |
-|---|---|---|
-| Profile photo | `src/assets/profile.png` | Swap this file with a real headshot (same filename). If it fails to load, the hero automatically falls back to a "CL" placeholder card. |
-| Resume | `public/resume.pdf` | Replace with your real resume, same filename — the download buttons already point here. |
-| Project data | `src/data/projects.js` | Titles, descriptions, tech tags, GitHub/demo links, and the case-study copy shown in the project modal. |
-| Skills data | `src/data/skills.js` | Skill categories and hover descriptions. |
-| GitHub username | `src/components/GithubSection.jsx` | Change `GITHUB_USERNAME` if needed. Uses the public GitHub REST API with no auth by default; optionally set `VITE_GITHUB_TOKEN` in a local `.env` file to raise the rate limit (never commit real tokens). |
-| Contact email | `src/components/Contact.jsx` and `Footer.jsx` | The contact form opens a pre-filled `mailto:` link — there's no backend, by design, so it never pretends to send email itself. |
+## 🌐 Live Demo
 
-## Architecture
+🚀 **[View Live Portfolio](YOUR_VERCEL_URL)**
 
-```
-src/
-├── components/       # All UI sections + shared primitives (Reveal, MagneticButton, CustomCursor, BackgroundFX)
-├── data/              # projects.js, skills.js — content lives here, not hardcoded in components
-├── hooks/             # useActiveSection (nav highlighting), useCounter (animated stats)
-├── assets/            # profile.png placeholder
-├── App.jsx
-├── main.jsx
-└── index.css          # Design tokens (Tailwind v4 @theme) + global styles
-```
+The portfolio is deployed on **Vercel** and showcases my skills, projects, experience, and professional journey.
 
-## Notes
+---
 
-- Respects `prefers-reduced-motion` throughout (background canvas, counters, custom cursor).
-- Custom cursor and mouse-based parallax are automatically disabled on touch devices.
-- Background particle count is reduced on small screens for performance.
-- Built with accessible semantics: focus states, alt text, keyboard-operable nav and modal (Escape to close).
+## 👨‍💻 About Me
+
+Hi, I'm **Chirayu Lokhande**, a Computer Science graduate specializing in **Big Data Analysis**.
+
+I am passionate about **Data Analytics, Artificial Intelligence, Machine Learning, and Software Development**. I enjoy working with data, building intelligent applications, and creating interactive user experiences.
+
+My current areas of interest include:
+
+- 📊 Data Analytics
+- 🤖 Artificial Intelligence
+- 🧠 Machine Learning
+- 🔎 Generative AI
+- 🔗 RAG Applications
+- 💻 Full-Stack Development
+- 📈 Business Intelligence
+
+---
+
+## ✨ Portfolio Features
+
+- 🎨 Modern and clean UI
+- 📱 Fully responsive design
+- ⚡ Fast and optimized performance
+- 🎭 Smooth animations and interactive elements
+- 👨‍💻 About Me section
+- 🛠️ Skills and technologies
+- 📂 Project showcase
+- 💼 Experience section
+- 📄 Resume section
+- 📬 Contact section
+- 🔗 Social media links
+- 🚀 Vercel deployment
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
+- Vite
+
+### Data Analytics
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SQL
+- Power BI
+- Excel
+
+### Machine Learning & AI
+
+- Scikit-learn
+- TensorFlow
+- Machine Learning
+- Generative AI
+- LangChain
+- RAG
+- Qdrant
+- Hugging Face
+
+### Tools & Platforms
+
+- Git
+- GitHub
+- VS Code
+- Streamlit
+- Vercel
+
+---
+
+## 📂 Featured Projects
+
+### 🍎 Apple Product Intelligence Center
+
+An interactive analytics platform designed to analyze Apple product pricing, discounts, trends, and market insights.
+
+**Tech Stack:**
+
+`Python` `Pandas` `Machine Learning` `Streamlit` `Plotly`
+
+**Key Features:**
+
+- 📊 Product price analysis
+- 💰 Discount analysis
+- 📈 Interactive data visualizations
+- 🤖 Machine Learning-based price prediction
+- 🔍 Product insights
+- 📅 Time-based analysis
+
+---
+
+### 📊 Financial Performance Dashboard
+
+A Power BI dashboard designed to analyze financial performance and provide interactive business insights.
+
+**Tech Stack:**
+
+`Power BI` `DAX` `Data Modeling` `Excel`
+
+**Key Features:**
+
+- 💰 Revenue analysis
+- 📊 KPI tracking
+- 📈 Interactive charts
+- 📅 Time-based analysis
+- 🔎 Dynamic filtering
+- 📋 Business performance analysis
+
+---
+
+### 🤖 AI & RAG Applications
+
+Applications built using **Retrieval-Augmented Generation (RAG)** that allow users to interact with data using natural language.
+
+**Tech Stack:**
+
+`Python` `LangChain` `Qdrant` `Hugging Face` `Gemini`
+
+**Key Features:**
+
+- 🔎 Semantic search
+- 🧠 Vector database retrieval
+- 🤖 AI-generated responses
+- 📚 Knowledge retrieval
+- 💬 Natural language interaction
+
+---
+
+## 💼 Experience
+
+### Data Analyst Intern — Unified Mentor
+
+📅 **April 2025 – June 2025**
+
+Worked on data analytics projects involving data cleaning, data analysis, visualization, and dashboard development.
+
+**Projects:**
+
+- 📊 Financial Performance Dashboard
+- ▶️ YouTube Channel Performance Analysis
+
+---
+
+## 🎓 Education
+
+### Bachelor of Technology — Computer Science
+
+**Specialization:** Big Data Analysis
+
+**Parul University**
+
+📅 **Graduated: 2025**
+
+---
+
+## 📁 Project Structure
+
+```text
+portfolio/
+│
+├── public/
+│   ├── assets/
+│   └── ...
+│
+├── src/
+│   ├── components/
+│   ├── sections/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+│
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── tailwind.config.js
+├── index.html
+└── README.md
