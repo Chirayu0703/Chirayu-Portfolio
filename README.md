@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_VERCEL_URL">
+  <a href="https://chirayu-portfolio-seven.vercel.app">
     <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20Portfolio-success?style=for-the-badge" />
   </a>
 </p>
@@ -21,7 +21,7 @@
 
 ## 🌐 Live Demo
 
-🚀 **[View Live Portfolio](YOUR_VERCEL_URL)**
+🚀 **[View Live Portfolio](https://chirayu-portfolio-seven.vercel.app)**
 
 The portfolio is deployed on **Vercel** and showcases my skills, projects, experience, and professional journey.
 
